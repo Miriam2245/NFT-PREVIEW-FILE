@@ -12,9 +12,9 @@ body {
   width: 500px;
   height: 850px;
   border-radius: 10px;
-  background-color: hsl(215, 32%, 27%);
+  background-color: hsl(216, 50%, 16%);
   display: flex;
-  box-shadow: 25px 25px 25px 25px rgba(13, 25, 43, 1);
+  box-shadow: 20px 20px 20px 20px rgba(13, 25, 43, 1);
   flex-direction: column;
 }
 .nft-image-cont {
@@ -26,9 +26,9 @@ body {
 }
 .nft-content {
   width: 85%;
-  height: 30%;
+  height: 25%;
   margin-left: 35px;
-  border: 1px solid red;
+  margin-top: 10px;
 }
 .image-equilibrium {
   width: 100%;
@@ -38,9 +38,10 @@ body {
 
 .nft-info {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
   height: 50px;
+  margin: 40px 0 0 0;
 }
 .nft-title {
   color: white;
@@ -59,46 +60,49 @@ body {
   display: flex;
   gap: 10px;
 }
+.nft-price p {
+  font-size: 22px;
+  font-family: "Outfit";
+  margin: 15px 0 0 0;
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
 .icon-ethereum {
   width: 20px;
-  height: 30px;
+  height: 35px;
   margin-top: 10px;
   align-items: center;
   justify-content: center;
 }
-.mini-time p {
-  font-size: 20px;
-  color: hsl(178, 100%, 50%);
-  align-items: center;
-  margin-top: 10px;
-}
+
 .nft-time {
-  width: 50%;
+  width: 38%;
   display: flex;
   gap: 10px;
 }
 .icon-clock {
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   margin-top: 8px;
 }
-.mini-time-2 p {
-  font-size: 20px;
+.nft-time p {
+  font-size: 22px;
+  font-family: "Outfit";
   color: hsl(215, 51%, 70%);
-  align-items: center;
-  margin-top: 10px;
+  margin: 12px 0 0 0;
 }
+
 hr {
-  border: 0.1px solid hsl(215, 51%, 70%);
-  width: 90%;
-  margin: 0 auto;
+  border: 0.1px solid hsl(0, 1%, 76%);
+  width: 85%;
+  margin: 40px 0 0 30px;
 }
 .last-div {
   width: 90%;
   height: 70px;
   margin: 0 auto;
   display: flex;
-  margin-top: 13px;
+  margin-top: 35px;
   align-items: center;
   gap: 20px;
 }
@@ -107,18 +111,17 @@ hr {
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  border: 1px solid white;
 }
 .profile-pic {
   width: 100%;
   height: 100%;
-  border-radius: 50%;
-  border: black solid 1px;
 }
 .creator-text {
-  font-size: 20px;
+  font-size: 22px;
   color: hsl(215, 51%, 70%);
 }
 .creator-name {
-  font-size: 20px;
+  font-size: 22px;
   color: white;
 }
